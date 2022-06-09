@@ -1,17 +1,23 @@
 # Programa básico de Algoritimos.
 
 Algoritmo Quatro_operacoes_basicas
+
 // rotina que recebe dois números e que apresenta o resultado 
 das quatro operações feitas com eles
+
   Var
+  
   NUM_A, NUM_B, SOMA, SUBTRACAO, MULTIPLICACAO, DIVISAO: real
+  
     NUM_A = 0
     NUM_B = 0
     SOMA = 0
     SUBTRACAO = 0
     MULTIPLICACAO = 0
     DIVISAO = 0
+    
   Início
+  
     Escreva "Programa que executa as quatro operações básicas"
     Escreva "Informe o primeiro número:"
     Leia NUM_A
@@ -29,4 +35,5 @@ das quatro operações feitas com eles
     Escreva MULTIPLICACAO
     Escreva "A divisão entre os dois números é"
     Escreva DIVISAO
+    
   Fim
